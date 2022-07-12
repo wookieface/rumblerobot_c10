@@ -18,8 +18,8 @@ radio.onReceivedNumberDeprecated(function (receivedNumber) {
         maqueen.motorStopAll()
     }
     if (receivedNumber == 4) {
-        maqueen.MotorRun(maqueen.aMotors.M1, maqueen.Dir.CCW, 0)
-        maqueen.MotorRun(maqueen.aMotors.M2, maqueen.Dir.CCW, 155)
+        maqueen.MotorRun(maqueen.aMotors.M1, maqueen.Dir.CW, 0)
+        maqueen.MotorRun(maqueen.aMotors.M2, maqueen.Dir.CW, 155)
         basic.pause(1000)
         maqueen.motorStopAll()
     }
